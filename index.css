@@ -1,0 +1,21 @@
+.Ismerteto{
+
+background-color: grey;
+width: 100%;
+height: fit-content;
+}
+.flex-container2 {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  nav{
+    background-color:aqua;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
