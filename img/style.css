@@ -1,0 +1,9 @@
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+body{
+    background-image: url("img/bg.jpg");
+}
