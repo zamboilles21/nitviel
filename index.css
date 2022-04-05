@@ -18,4 +18,11 @@ height: fit-content;
     align-content: center;
     justify-content: center;
     text-align: center;
+    text-decoration: none;
+}
+h1{
+    text-transform: capitalize;
+    font-size: bold;
+    text-shadow: 3px 3px darkgrey 50%;
+    color: cornsilk;
 }
