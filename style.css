@@ -35,3 +35,6 @@ a:visited{
     text-decoration: none;
     color: dodgerblue;
 }
+img:hover{
+    transform: scale(2);
+}
