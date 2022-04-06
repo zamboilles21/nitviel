@@ -1,9 +1,37 @@
 #content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 2vw;
 }
 body{
-    background-image: url("img/bg.jpg");
+    background-color: beige;
+}
+nav{
+    background-color:aqua;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+.flex-container2 {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+a:visited{
+    text-decoration: none;
+    color: dodgerblue;
 }
