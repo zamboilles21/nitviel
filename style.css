@@ -6,11 +6,12 @@
 }
 body{
     background-color: beige;
+    
 }
 nav{
     background-color:aqua;
     opacity: 0.9;
-    height: 100%;
+    height: 400%;
     width: 100%;
     align-content: center;
     justify-content: center;
@@ -28,8 +29,11 @@ img{
     height: 100px;
 }
 a{
+    animation: links 1s infinite ;
+    animation-direction:alternate;
     text-decoration: none;
     color: dodgerblue;
+    font-size: 33px;
 }
 a:visited{
     text-decoration: none;
@@ -37,4 +41,12 @@ a:visited{
 }
 img:hover{
     transform: scale(2);
+    
 }
+#notimportant{
+    font-size: smaller;
+}
+@keyframes links {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+} 
