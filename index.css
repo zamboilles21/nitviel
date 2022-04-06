@@ -49,9 +49,43 @@ h1{
   
 
 }
+.element {
+  height: 280px;
+  width: 925px;
+  margin: 0 auto;
+  background-image: url('img/Mikrotik-logo.png');
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    
+    border-radius: 100%;
+  }
+  50% {
+    
+  }
+  100% {
+    transform: scale(1.5);
+    
+  }
+}
+
 
 a{
   text-decoration: none;
+  
+}
+a:visited{
+  color:blue ;
 }
 img{
   width: 400px;
@@ -60,6 +94,8 @@ img{
 body{
   background-image: url('img/1633_hi_res.png');
   text-decoration: none;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .parent {
   display: grid;
