@@ -53,6 +53,45 @@ img:hover{
 #notimportant{
     font-size: smaller;
 }
+li:hover{
+    color:midnightblue;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: dotted underline;
+    background-color:plum;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p:hover{
+    color:midnightblue;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: dotted underline;
+    background-color:plum;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#elso{
+    animation: colors1 2s infinite alternate-reverse;
+}
+#masodik{
+    animation: colors2 2s infinite alternate-reverse;
+}
+#harmadik{
+    animation: colors3 2s infinite alternate-reverse;
+}
+#negyedik{
+    animation: colors4 2s infinite alternate-reverse;
+}
+#otodik{
+    animation: colors5 2s infinite alternate-reverse;
+}
+#hatodik{
+    animation: colors6 2s infinite alternate-reverse;
+}
 @keyframes links {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
@@ -86,4 +125,58 @@ img:hover{
     90% {transform:translateX(-200px)}
     95% {transform:translateX(-100px)}
     100% {transform:translateX(0px)}
+}
+@keyframes colors6{
+    16%{color: pink ;}
+    32%{color: cyan ;}
+    48%{color: greenyellow ;}
+    64%{color: crimson;}
+    70%{color: royalblue ;}
+    86%{color: orange ;}
+    100%{color: turquoise;}
+}
+@keyframes colors1{
+    16%{color:turquoise ;}
+    32%{color: pink;}
+    48%{color:cyan ;}
+    64%{color:greenyellow;}
+    70%{color:crimson;}
+    86%{color:royalblue;}
+    100%{color:orange;}
+}
+@keyframes colors2{
+    16%{color:orange ;}
+    32%{color: turquoise;}
+    48%{color: pink;}
+    64%{color:cyan;}
+    70%{color:greenyellow;}
+    86%{color:crimson;}
+    100%{color:royalblue;}
+}
+@keyframes colors3{
+    16%{color: royalblue;}
+    32%{color: orange;}
+    48%{color: turquoise;}
+    64%{color:pink;}
+    70%{color:cyan;}
+    86%{color:greenyellow;}
+    100%{color:crimson;}
+}
+@keyframes colors4{
+    16%{color:crimson ;}
+    32%{color: royalblue;}
+    48%{color: orange;}
+    64%{color:turquoise;}
+    70%{color:pink;}
+    86%{color:cyan;}
+    100%{color:greenyellow;}
+}
+@keyframes colors5{
+    16%{color: greenyellow;}
+    32%{color: crimson;}
+    48%{color: royalblue;}
+    64%{color:orange;}
+    70%{color:turquoise;}
+    86%{color:pink;}
+    100%{color:cyan;}
 }
