@@ -50,15 +50,15 @@ h1{
 
 }
 .element {
-  height: 250px;
-  width: 250px;
+  height: 280px;
+  width: 925px;
   margin: 0 auto;
-  background-image: url('img/MIKROTIK_Wireless_Router_BOARD_RBD52G-5HACD2HND-TC_5_x_1000_Mbps_DualBand_1_x_USB-i408447.png');
+  background-image: url('img/Mikrotik-logo.png');
   animation-name: stretch;
   animation-duration: 1.5s; 
   animation-timing-function: ease-out; 
   animation-delay: 0;
-  animation-direction: alternate;
+  animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
   animation-fill-mode: none;
   animation-play-state: running;
@@ -82,6 +82,10 @@ h1{
 
 a{
   text-decoration: none;
+  
+}
+a:visited{
+  color:blue ;
 }
 img{
   width: 400px;
@@ -90,6 +94,8 @@ img{
 body{
   background-image: url('img/1633_hi_res.png');
   text-decoration: none;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .parent {
   display: grid;
