@@ -3,7 +3,9 @@
 background-color: grey;
 width: 100%;
 height: fit-content;
+opacity: 0.9;
 }
+
 .flex-container2 {
     display: flex;
     align-content: center;
@@ -23,8 +25,11 @@ height: fit-content;
 h1{
     text-transform: capitalize;
     font-size: bold;
-    text-shadow: 3px 3px darkgrey 50%;
+    text-shadow: 3px 3px 5px green;
     color:green;
+    font-size: 100px;
+    margin: auto;
+    padding: auto;
 }
 .flex-container {
   display: flex;
@@ -36,4 +41,8 @@ h1{
 img{
   width: 350px;
   height: fit-content;
+}
+body{
+  background-image: url('img/1633_hi_res.png');
+  text-decoration: none;
 }
