@@ -42,6 +42,9 @@ a{
     color: dodgerblue;
     font-size: 33px;
 }
+a:hover{
+    animation: none;
+}
 a:visited{
     text-decoration: none;
     color: dodgerblue;
@@ -75,22 +78,22 @@ p:hover{
 }
 
 #elso{
-    animation: colors1 2s infinite alternate-reverse;
+    animation: colors1 1s infinite ;
 }
 #masodik{
-    animation: colors2 2s infinite alternate-reverse;
+    animation: colors2 1s infinite ;
 }
 #harmadik{
-    animation: colors3 2s infinite alternate-reverse;
+    animation: colors3 1s infinite ;
 }
 #negyedik{
-    animation: colors4 2s infinite alternate-reverse;
+    animation: colors4 1s infinite ;
 }
 #otodik{
-    animation: colors5 2s infinite alternate-reverse;
+    animation: colors5 1s infinite ;
 }
 #hatodik{
-    animation: colors6 2s infinite alternate-reverse;
+    animation: colors6 1s infinite ;
 }
 @keyframes links {
     0% {transform: rotate(0deg);}
