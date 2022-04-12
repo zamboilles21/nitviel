@@ -7,6 +7,15 @@ opacity: 0.9;
 animation-name: example;
 animation-duration: 4s;
 animation-iteration-count: infinite;
+margin-left: auto;
+margin-right: auto;
+padding: 50px;
+
+
+}
+#kepek{
+  width: 66%;
+  height: fit-content;
 }
 @keyframes example {
   0%   {background-color: red;}
@@ -50,12 +59,12 @@ h1{
 
 }
 .element {
-  height: 280px;
-  width: 925px;
+  height: 281px;
+  width: 981px;
   margin: 0 auto;
   background-image: url('img/Mikrotik-logo.png');
   animation-name: stretch;
-  animation-duration: 1.5s; 
+  animation-duration: 5s; 
   animation-timing-function: ease-out; 
   animation-delay: 0;
   animation-direction: alternate-reverse;
@@ -112,7 +121,7 @@ body{
   grid-row-gap: 0px;
   position: relative;
   animation-name: example2;
-  animation-duration: 4s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   }
