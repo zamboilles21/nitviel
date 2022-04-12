@@ -8,6 +8,10 @@ body{
     background-color: beige;
     
 }
+#mob{
+    height: 400px;
+    width: 100px;
+}
 nav{
     animation: example 5s infinite alternate-reverse;
     opacity: 0.9;
@@ -76,28 +80,31 @@ p:hover{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.pulse{
+    animation:pulsation 1s infinite;
+}
 
 #elso{
-    animation: colors1 1s infinite ;
+    animation: colors1 0.1s infinite ;
 }
 #masodik{
-    animation: colors2 1s infinite ;
+    animation: colors2 0.1s infinite ;
 }
 #harmadik{
-    animation: colors3 1s infinite ;
+    animation: colors3 0.1s infinite ;
 }
 #negyedik{
-    animation: colors4 1s infinite ;
+    animation: colors4 0.1s infinite ;
 }
 #otodik{
-    animation: colors5 1s infinite ;
+    animation: colors5 0.1s infinite ;
 }
 #hatodik{
-    animation: colors6 1s infinite ;
+    animation: colors6 0.1s infinite ;
 }
 @keyframes links {
     0% {transform: rotate(0deg);}
-    100% {transform: rotate(360deg);}
+    100% {transform: rotate(1080deg);}
 } 
 
 @keyframes example {
@@ -128,6 +135,29 @@ p:hover{
     90% {transform:translateX(-200px)}
     95% {transform:translateX(-100px)}
     100% {transform:translateX(0px)}
+}
+@keyframes pulsation{
+    0% {transform: scale(100%)}
+    5%{transform: scale(110%)}
+    10%{transform: scale(105%)}
+    15%{transform: scale(120%)}
+    20%{transform: scale(110%)}
+    25%{transform: scale(130%)}
+    30%{transform: scale(115%)}
+    35%{transform: scale(140%)}
+    40%{transform: scale(120%)}
+    45%{transform: scale(150%)}
+    50%{transform: scale(125%)}
+    55%{transform: scale(145%)}
+    60%{transform: scale(110%)}
+    65%{transform: scale(130%)}
+    70%{transform: scale(90%)}
+    75%{transform: scale(108%)}
+    80%{transform: scale(76%)}
+    85%{transform: scale(96%)}
+    90%{transform: scale(52%)}
+    95%{transform: scale(76%)}
+    100%{transform: scale(100%)}
 }
 @keyframes colors6{
     16%{color: pink ;}
